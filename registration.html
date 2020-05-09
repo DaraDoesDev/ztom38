@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <!-- Use GET, not POST -->
+    <form method="GET">
+        First Name: <input type="text" name="firstname">
+        <br>
+        Last Name: <input type="text" name="lastname">
+        <br>
+        Email: <input type="email" name="email" required>
+        <br>
+        Birthday: <input type="date" name="birthday">
+        <br>
+        Gender: <br>
+        <input type="radio" name="gender" value="male">Male<br>
+        <input type="radio" name="gender" value="female">Female
+        <br>
+        Current Belt Level: <br>
+        <input type="radio" name="belt" value="white">White<br>
+        <input type="radio" name="belt" value="blue">Blue<br>
+        <input type="radio" name="belt" value="purple">Purple<br>
+        <input type="radio" name="belt" value="brown">Brown<br>
+        <input type="radio" name="belt" value="black">Black<br>
+        <input type="radio" name="belt" value="red">Red
+        <br>
+        <input type="submit" value="Register!"><br>
+        <input type="reset">
+    </form>
+</body>
+</html>
